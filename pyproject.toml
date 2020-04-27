@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "usf_econ_622_feature_engineering"
+version = "0.1.0"
+description = ""
+authors = ["Spencer Barton <sbarton272@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+pandas = "^1.0.3"
+matplotlib = "^3.2.1"
+seaborn = "^0.10.1"
+jupyterlab = "^2.1.1"
+scikit-learn = "^0.22.2"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
