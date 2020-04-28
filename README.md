@@ -1,6 +1,11 @@
 # usf_econ_622_feature_engineering
 Lesson for the USF Econ 622 class on feature engineering for ML
 
+TODO
+- [ ] Try in colab
+- [ ] Talk to florent
+- [ ] test out timing
+
 # Data
 
 From http://insideairbnb.com/get-the-data.html
