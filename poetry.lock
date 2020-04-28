@@ -140,6 +140,7 @@ xgboost = ["xgboost (0.6a2)"]
 reference = "e3ec00de6c53e477921912eb691d16042973f870"
 type = "git"
 url = "https://github.com/hyperopt/hyperopt-sklearn.git"
+
 [[package]]
 category = "main"
 description = "Distributed Asynchronous Hyperparameter Optimization"
@@ -851,6 +852,21 @@ version = "0.5.1"
 
 [[package]]
 category = "main"
+description = "A suite of visual analysis and diagnostic tools for machine learning."
+name = "yellowbrick"
+optional = false
+python-versions = ">=3.4, <4"
+version = "1.1"
+
+[package.dependencies]
+cycler = ">=0.10.0"
+matplotlib = ">=2.0.2,<3.0.0 || >3.0.0"
+numpy = ">=1.13.0"
+scikit-learn = ">=0.20"
+scipy = ">=1.0.0"
+
+[[package]]
+category = "main"
 description = "Backport of pathlib-compatible object wrapper for zip files"
 marker = "python_version < \"3.8\""
 name = "zipp"
@@ -863,7 +879,7 @@ docs = ["sphinx", "jaraco.packaging (>=3.2)", "rst.linker (>=1.9)"]
 testing = ["jaraco.itertools", "func-timeout"]
 
 [metadata]
-content-hash = "e3dd1aba8c1ee171f7270bc560294e6d8c3a1c62be63fd6eda5a1cfa16c1132b"
+content-hash = "201aeba3cd235d3943c4f16f30592f159dab9664f9bf64956a82138873f80985"
 python-versions = "^3.7"
 
 [metadata.files]
@@ -1315,6 +1331,10 @@ wcwidth = [
 webencodings = [
     {file = "webencodings-0.5.1-py2.py3-none-any.whl", hash = "sha256:a0af1213f3c2226497a97e2b3aa01a7e4bee4f403f95be16fc9acd2947514a78"},
     {file = "webencodings-0.5.1.tar.gz", hash = "sha256:b36a1c245f2d304965eb4e0a82848379241dc04b865afcc4aab16748587e1923"},
+]
+yellowbrick = [
+    {file = "yellowbrick-1.1-py3-none-any.whl", hash = "sha256:a753daf750c80903fdb7ae3ad2313a578971e851693e8ef7565d722cd2b6813b"},
+    {file = "yellowbrick-1.1.tar.gz", hash = "sha256:3edddb4a16ddd0586169fccd0645b2fa78e266c40968f872753909250ac6826c"},
 ]
 zipp = [
     {file = "zipp-3.1.0-py3-none-any.whl", hash = "sha256:aa36550ff0c0b7ef7fa639055d797116ee891440eac1a56f378e2d3179e0320b"},
