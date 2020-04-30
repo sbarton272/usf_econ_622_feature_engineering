@@ -1,10 +1,7 @@
 # usf_econ_622_feature_engineering
 Lesson for the USF Econ 622 class on feature engineering for ML
 
-TODO
-- [ ] Try in colab
-- [ ] Talk to florent
-- [ ] test out timing
+https://colab.research.google.com/drive/1AX9ppj_rFouOIm1aJ6tVfyYySe_5Bbpw#scrollTo=nJg_m8BfXtvj
 
 # Data
 
